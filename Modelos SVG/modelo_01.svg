@@ -1,0 +1,18 @@
+<svg width='270' height='57' viewBox='0 0 200 57' fill='none' xmlns='http://www.w3.org/2000/svg'>
+    <!--Definición de la gradiente-->
+    <defs>
+        <linearGradient id='gradiente_color' x1='0' y1='50' x2='100' y2='50' gradientUnits='userSpaceOnUse'>
+            <stop stop-color='#E34F4F'/>
+            <stop offset='1' stop-color='#860939'/>
+        </linearGradient>
+    </defs>
+    <!--Barra de fondo-->
+    <rect y='43' width='200' height='14' rx='7' fill='#E9F1F4'/>
+    <!--Barra de progreso-->
+    <rect y='43' width='100' height='14' rx='7' fill='url(#gradiente_color)'/>
+    <!--Burbuja y texto-->
+    <g transform='translate(0 0)'>
+        <path d='M76 0C72.6847 0 70 1.69902 70 3.80066V26.5997C70 28.7013 72.6847 30.4002 76 30.4002H90.93L98.3362 37.4357C98.7072 37.7883 99.3315 38 100 38C100.668 38 101.293 37.7883 101.664 37.4357L109.07 30.4002H124C127.315 30.4002 130 28.7013 130 26.5997V3.80066C130 1.69902 127.315 0 124 0L76 0Z' fill='black'/>
+        <text x='100' y='17' dominant-baseline='middle' text-anchor='middle' style='font: bold 18px Arial; fill: white'>50%</text>
+    </g>
+</svg>

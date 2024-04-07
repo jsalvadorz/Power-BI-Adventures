@@ -1,0 +1,17 @@
+<svg width='270' height='57' viewBox='0 0 270 26' fill='none' xmlns='http://www.w3.org/2000/svg'>
+    <!--Definición de la gradiente-->
+    <defs>
+        <linearGradient id='gradiente_color' x1='55.0067' y1='21' x2='54.9134' y2='5.00047' gradientUnits='userSpaceOnUse'>
+            <stop stop-color='#F2BC07'/>
+            <stop offset='1' stop-color='#FFDD7C'/>
+        </linearGradient>
+    </defs>
+    <!--Barras de fondo-->
+    <rect width='270' height='26' rx='13' fill='#718186'/>
+    <rect x='3' y='3' width='264' height='20' rx='10' fill='#ECEDE3'/>
+    <rect x='5' y='5' width='200' height='16' rx='8' fill='#718186'/>
+    <!--Barra de progreso-->
+    <rect x='5' y='5' width='100' height='16' rx='8' fill='url(#gradiente_color)'/>
+    <!--Etiqueta de porcentaje-->
+    <text x='235' y='15' dominant-baseline='middle' text-anchor='middle' style='font: bold 19px Arial; fill: #7C9F60'>50%</text>
+</svg>
